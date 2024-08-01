@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Food Store</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to My Food Store</span>
+            </h1>
+
+            <p class="tertiary">
+                
+              Now you can order your favourite food using this website.
+             Food Delivery at your doorstep.... Enjoy
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="hamburger-1238246_640 (1).jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="https://assets.epicurious.com/photos/628ba0d3fa016bab2139efa2/1:1/w_4546,h_4546,c_limit/Gyoza_RECIPE_051922_34332.jpg"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Japanese Gyozas</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://www.allrecipes.com/thmb/qN8HjL3tu6MKaPQqzQRlSPO_lQA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8555902-avocado-salad-maria-collins-4x3-1-aac00e5486154d1290fa8576afb4bab8.jpg"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                        <span class="tag tag--paleo">Paleo</span>
+                    </div>
+                    <p class="meal-title">Avocado Salad</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/thai-red-curry-34c1e6d.jpg"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                    </div>
+                    <p class="meal-title">Thai Red Curry</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    food website is designed to streamline the ordering process, making it quick and convenient for customers to place their orders.
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    food website is designed to highlight the high standards and superior quality of your food, ingredients, and overall service.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    food website is crucial for highlighting the efficiency and reliability of your delivery service
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="hamburger-1238246_640 (1).jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    your food website is an excellent way to showcase the variety, quality, and mouth-watering appeal of your menu items.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li><a href="Biryani.html">Biryani</a></li>
+                <li><a href="momos.html">Momos</a></li>
+                <li><a href="Pizza.html">Pizza</a></li>
+                <li><a href="Burger.html">Burger</a></li>
+                <li><a href="Pasta.html">Pasta</a></li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+                            alt="" />
+
+                        <div class="title">Pizza Sauce</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹250.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-2.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹500.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg"
+                            alt="" />
+
+                        <div class="title">Pizza Sauce</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹300.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-3.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Chineese & Thai</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹500.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://content3.jdmagicbox.com/comp/def_content/chinese_restaurants/default-chinese-restaurants-5.jpg"
+                            alt="" />
+
+                        <div class="title">Meet Chinese Food 
+                            </div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹200.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-4.jpg"
+                            alt="" />
+
+                        <div class="title">Pasta</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹200.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="https://images.ctfassets.net/uexfe9h31g3m/6XfDWdMLb4gJheTcfUw9tM/e43d5a3db5a1a0e6bfe1981c63ed0d3e/burger_1024x768.jpg?w=768&h=512&fm=webp&fit=thumb&q=90"
+                            alt="" />
+
+                        <div class="title">Burger</div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹250.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://fatimacooks.net/wp-content/uploads/2022/06/Chapli-Kabab-Recipe.jpg"
+                            alt="" />
+
+                        <div class="title">Chapli Kabab Recipe
+                            </div>
+
+                        <div class="location">Jalgoan, india</div>
+
+                        <div class="order flex">
+                            <div class="price">₹250.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>How do I place an order?</summary>
+                <div class="content">
+                    <p>
+                        You can place an order through our website, mobile app, or by calling us directly.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What are your delivery hours?</summary>
+                <div class="content">
+                    <p>
+                        We deliver from 11:00 AM to 10:00 PM, Monday through Sunday.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What are your delivery charges?</summary>
+                <div class="content">
+                    <p>
+                        Delivery charges vary based on your location. You can see the exact delivery fee when you place your order.
+                        
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What types of cuisine do you offer?</summary>
+                <div class="content">
+                    <p>
+                        We offer a variety of cuisines including Italian, Chinese, Mexican, Indian, and American.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The FoodLover App</h2>
+                <p>
+                    The application allows you to order dishes, drinks with home delivery, personal collection and take advantage of promotions.
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Welcome to <b>Food Store</b>, where passion for great food meets dedication to exceptional service.
+                    Our journey began in <b>2024</b> with a simple goal: to bring delicious, high-quality food to our community. 
+                    we have grown from a small venture to a beloved destination for food enthusiasts.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                   
+                    <li><a href="Biryani.html">Biryani</a></li>
+                    <li><a href="momos.html">Momos</a></li>
+                    <li><a href="Pizza.html">Pizza</a></li>
+                    <li><a href="Burger.html">Burger</a></li>
+                    <li><a href="Pasta.html">Pasta</a></li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Suggession</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Design By RoshanPatil</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
